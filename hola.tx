@@ -1,0 +1,2736 @@
+# MANUAL DE USUARIO
+## Sistema de Gestión de Inventario SENA
+![enter image description here](https://iili.io/fThOMYv.png)
+
+---
+> **TÍTULO DEL DOCUMENTO:** Manual de Usuario - Sistema de Gestión de Inventario SENA
+> 
+> **INSTITUCIÓN:** SENA (Servicio Nacional de Aprendizaje)
+> 
+> **TECNÓLOGO:** Analisis y Desarrollo de software
+> 
+> **FECHA DE PUBLICACIÓN:** Diciembre 2025
+> 
+> **AUTOR:** Duvan Yair Arciniegas Gerena
+> 
+> **INSTRUCTOR:** Juan Ramon Rodriguez
+
+---
+
+## TABLA DE CONTENIDOS
+
+## TABLA DE CONTENIDOS
+1. [Bienvenida e Introducción](#1-bienvenida-e-introducción)
+2. [Requisitos del Sistema](#2-requisitos-del-sistema)
+3. [Instalación y Configuración Inicial](#3-instalación-y-configuración-inicial)
+4. [Acceso a la Aplicación](#4-acceso-a-la-aplicación)
+5. [Entendiendo los Roles](#5-entendiendo-los-roles)
+6. [Navegación Básica](#6-navegación-básica)
+7. [Panel de Control (Dashboard)](#7-panel-de-control-dashboard)
+8. [Verificación de Inventario](#8-verificación-de-inventario)
+9. [Gestión de Equipos](#9-gestión-de-equipos)
+10. [Solicitud de Mantenimiento](#10-solicitud-de-mantenimiento)
+11. [Préstamos de Equipo](#11-préstamos-de-equipo)
+12. [Códigos QR](#12-códigos-qr)
+13. [Notificaciones](#13-notificaciones)
+14. [Reportes y Estadísticas](#14-reportes-y-estadísticas)
+15. [Preguntas Frecuentes](#15-preguntas-frecuentes)
+16. [Glosario de Términos](#16-glosario-de-términos)
+17. [Contacto y Soporte](#17-contacto-y-soporte)
+
+---
+
+## 1. BIENVENIDA E INTRODUCCIÓN
+
+### ¿Qué es este sistema?
+
+El **Sistema de Gestión de Inventario SENA** es una herramienta diseñada para facilitar el control, seguimiento y administración de todos los equipos y materiales disponibles en los ambientes de aprendizaje del SENA.
+
+Con esta aplicación, usted podrá:
+
+- **Verificar equipos** de forma rápida y eficiente
+- **Solicitar mantenimiento** cuando algo no funcione correctamente
+- **Solicitar préstamos** de equipos cuando los necesite
+- **Escanear códigos QR** para identificar equipos
+- **Recibir notificaciones** sobre cambios importantes
+- **Ver reportes** del estado del inventario
+- **Generar reportes** con la información que necesita
+
+### ¿A quién está dirigido este manual?
+
+Este manual ha sido preparado para **todos los usuarios** del sistema, incluyendo:
+
+- Estudiantes
+- Instructores
+- Supervisores
+- Administradores
+- Personal de almacen
+
+Cada sección incluye instrucciones específicas según su rol.
+
+### Cómo usar este manual
+
+1. **Comience por la Sección 2** si es la primera vez que instala la aplicación
+2. **Lea la Sección 5** para entender qué funciones tiene disponibles según su rol
+3. **Use las secciones temáticas** para aprender sobre funciones específicas
+4. **Consulte el Glosario** si encuentra términos desconocidos
+5. **Revise las Preguntas Frecuentes** si tiene dudas comunes
+
+---
+
+## 2. REQUISITOS DEL SISTEMA
+
+Antes de instalar la aplicación, asegúrese de que su dispositivo cumple con los siguientes requisitos:
+
+### Para Dispositivos Android (Teléfonos y Tablets)
+
+| Requisito | Especificación |
+|-----------|----------------|
+| **Sistema Operativo** | Android 8.0 o superior |
+| **Espacio de Almacenamiento** | Mínimo 100 MB disponibles |
+| **Memoria RAM** | Mínimo 2 GB |
+| **Conexión** | WiFi o datos móviles activos |
+| **Navegador** | Chrome, Firefox o navegador predeterminado (si usa versión web) |
+
+### Para Dispositivos iOS (iPhone y iPad)
+
+| Requisito | Especificación |
+|-----------|----------------|
+| **Sistema Operativo** | iOS 12.0 o superior |
+| **Espacio de Almacenamiento** | Mínimo 100 MB disponibles |
+| **Memoria RAM** | Mínimo 2 GB |
+| **Conexión** | WiFi o datos móviles activos |
+| **Safari** | Versión actual compatible |
+
+### Para Usar en Computadora (Navegador Web)
+
+| Requisito | Especificación |
+|-----------|----------------|
+| **Navegador** | Chrome, Firefox, Safari o Edge (versiones recientes) |
+| **Sistema Operativo** | Windows 10/11, macOS 10.12+, Linux |
+| **Conexión** | Conexión a Internet estable |
+| **Pantalla** | Resolución mínima 1024x768 píxeles |
+
+### Recomendaciones Adicionales
+
+- **Conexión de Internet:** Se recomienda una conexión WiFi para la mejor experiencia
+- **Batería:** Si usa en un dispositivo móvil, asegúrese de tener batería suficiente (mínimo 30%)
+- **Navegador Actualizado:** Mantenga su navegador actualizado para seguridad y compatibilidad
+- **Permisos:** La aplicación puede solicitar permiso para acceder a cámara (para QR) y almacenamiento
+
+---
+
+## 3. INSTALACIÓN Y CONFIGURACIÓN INICIAL 
+
+### Paso 1: Descargar la Aplicación
+
+#### En Android:
+
+1. Abra la **Play Store** en su dispositivo Android
+2. Busque: **"SENA Gestión de Inventario"**
+3. Pulse el botón **"Instalar"**
+4. Espere a que se complete la descarga e instalación (puede tomar 1-2 minutos)
+5. Pulse **"Abrir"** cuando termine
+
+#### En iPhone o iPad:
+
+1. Abra la **App Store** en su dispositivo iOS
+2. Busque: **"SENA Gestión de Inventario"**
+3. Pulse el botón **"Obtener"** (puede pedir autenticación)
+4. Espere a que se complete la instalación
+5. Pulse **"Abrir"** cuando termine
+
+#### En Computadora (Navegador Web):
+
+1. Abra su navegador web (Chrome, Firefox, Safari, Edge)
+2. Escriba la dirección: **https://inventariosena.axchisan.com**
+3. La aplicación se cargará automáticamente
+4. Agregue a favoritos para acceso rápido (Ctrl+D o Cmd+D)
+
+### Paso 2: Dar Permisos Necesarios
+
+Cuando abra la aplicación por primera vez, es posible que le solicite permisos. **Estos son necesarios para que funcione correctamente:**
+
+| Permiso | Razón | Acción |
+|---------|-------|--------|
+| **Cámara** | Para escanear códigos QR de equipos | Pulse **"Permitir"** |
+| **Almacenamiento** | Para guardar reportes y descargar archivos | Pulse **"Permitir"** |
+| **Ubicación** | Para asociar equipos con su ambiente | Pulse **"Permitir"** |
+
+### Paso 3: Actualizar la Aplicación
+
+La aplicación se actualiza automáticamente, pero también puede verificar manualmente:
+
+**En Android:**
+1. Abra Google Play Store
+2. Pulse su foto de perfil en la esquina superior derecha
+3. Seleccione **"Gestionar mis aplicaciones y dispositivo"**
+4. En la pestaña **"Actualizaciones disponibles"**, busque la aplicación SENA
+5. Pulse **"Actualizar"** si está disponible
+
+**En iPhone:**
+1. Abra App Store
+2. Pulse el icono de su perfil en la esquina inferior derecha
+3. Pulse **"Actualizaciones disponibles"**
+4. Busque la aplicación SENA
+5. Pulse **"Actualizar"** si está disponible
+
+---
+
+## 4. ACCESO A LA APLICACIÓN
+
+### Crear su Cuenta de Usuario
+![enter image description here](https://iili.io/fThbMsn.jpg)
+
+Si es su primera vez usando el sistema:
+
+**Paso 1: Abra la Aplicación**
+- Toque el icono de la aplicación en su pantalla de inicio
+
+**Paso 2: Vaya a Registro**
+- En la pantalla de bienvenida, busque el botón **"¿No tienes cuenta? Regístrate aquí"**
+- Toque este enlace
+
+**Paso 3: Complete el Formulario de Registro**
+
+Rellene cuidadosamente los siguientes campos:
+
+1. **Nombre:** Su primer nombre completo
+2. **Apellido:** Su apellido(s) completo(s)
+3. **Email:** Su correo electrónico del SENA (ej: nombreapellido@estudiantes.sena.edu.co)
+4. **Contraseña:** Cree una contraseña segura
+   - Debe tener al menos 8 caracteres
+   - Incluir mayúsculas, minúsculas y números
+   - Ejemplo: `Sena2024!`
+5. **Confirmar Contraseña:** Escriba nuevamente la misma contraseña
+
+**Paso 4: Seleccione su Programa**
+- Busque su programa de formación en la lista
+- Si no lo encuentra, seleccione **"Otro"** e indíquelo
+
+**Paso 5: Acepte Términos**
+- Marque la casilla: **"Acepto los términos y condiciones"**
+- Pulse el botón **"Registrarse"**
+
+**Paso 6: Confirme su Email**
+- Se le enviará un correo de confirmación
+- Abra el correo desde su gestor de email
+- Pulse el enlace **"Confirmar Email"** en el correo
+
+¡Su cuenta está creada! Ahora puede iniciar sesión.
+
+### Iniciar Sesión
+![enter image description here](https://iili.io/fThpBwB.jpg)
+
+**Paso 1: Abra la Aplicación**
+
+**Paso 2: Ingrese sus Credenciales**
+
+En la pantalla de **Iniciar Sesión**, escriba:
+
+1. **Email:** El correo que usó para registrarse
+2. **Contraseña:** Su contraseña (las mayúsculas/minúsculas importan)
+
+**Paso 3: Pulse "Iniciar Sesión"**
+
+- Si sus credenciales son correctas, accederá a su Panel de Control
+- Si hay un error, verifique que haya escrito correctamente el email y la contraseña
+- Si olvidó la contraseña, pulse **"¿Olvidaste tu contraseña?"**
+
+### Cerrar Sesión
+![enter image description here](https://iili.io/fTjY2Xp.png)
+
+Cuando termine de usar la aplicación:
+
+1. Abra el menú lateral (icono de tres líneas horizontales ☰)
+2. Desplácese hasta el final
+3. Pulse **"Cerrar Sesión"**
+4. Confirme cuando se le solicite
+
+**Importante:** Siempre cierre sesión antes de que otra persona use el dispositivo.
+
+---
+
+## 5. ENTENDIENDO LOS ROLES 
+
+La aplicación tiene **diferentes funciones** disponibles según su rol en el SENA. Aquí aprenderá qué puede hacer según su rol:
+
+### Estudiante 👨‍🎓
+
+**Símbolo:** 👨‍🎓
+
+**¿Quién es?** Aprendiz del SENA participando en una formación
+
+**Funciones Disponibles:**
+
+- ✅ Escanear códigos QR de equipos
+- ✅ Realizar verificación de inventario
+- ✅ Solicitar mantenimiento de equipos dañados
+- ✅ Solicitar préstamo de equipos
+- ✅ Ver notificaciones de cambios
+- ✅ Consultar estado de sus solicitudes
+- ✅ Dar retroalimentación sobre la aplicación
+
+**NO puede:**
+- ❌ Aprobar verificaciones de otros
+- ❌ Ver datos de todo el sistema
+- ❌ Acceder a funciones de administrador
+
+**Acceso a:** Panel de Estudiante
+
+---
+
+### Instructor 👨‍🏫
+
+**Símbolo:** 👨‍🏫
+
+**¿Quién es?** Instructor o docente del SENA responsable de un ambiente de aprendizaje
+
+**Funciones Disponibles:**
+
+- ✅ Todas las funciones del Estudiante
+- ✅ Aprobar verificaciones de inventario de sus estudiantes
+- ✅ Generar códigos QR de equipos
+- ✅ Solicitar préstamos de equipo
+- ✅ Ver historial de préstamos
+- ✅ Administrar horarios del ambiente
+- ✅ Ver estadísticas del ambiente
+
+**NO puede:**
+- ❌ Hacer aprobación final de verificaciones
+- ❌ Ver datos de otros ambientes
+- ❌ Acceso a funciones de administración
+
+**Acceso a:** Panel de Instructor
+
+---
+
+### Supervisor 👨‍💼
+
+**Símbolo:** 👨‍💼
+
+**¿Quién es?** Coordinador o supervisor responsable del control general
+
+**Funciones Disponibles:**
+
+- ✅ Todas las funciones del Instructor
+- ✅ Aprobar verificaciones finalmente
+- ✅ Asignar mantenimiento a técnicos
+- ✅ Ver alertas de inventario
+- ✅ Generar reportes avanzados
+- ✅ Ver estadísticas completas
+- ✅ Acceder a registros de auditoría
+
+**NO puede:**
+- ❌ Gestionar usuarios del sistema
+- ❌ Ver datos de múltiples sedes
+
+**Acceso a:** Panel de Supervisor
+
+---
+
+### Administrador 👨‍💻
+
+**Símbolo:** 👨‍💻
+
+**¿Quién es?** Administrador de una sede o centro de formación
+
+**Funciones Disponibles:**
+
+- ✅ Todas las funciones de Supervisor
+- ✅ Gestionar inventario completo
+- ✅ Crear y eliminar usuarios
+- ✅ Asignar roles a usuarios
+- ✅ Administrar ambientes y ubicaciones
+- ✅ Aprobar solicitudes de préstamo
+- ✅ Generar todos tipos de reportes
+- ✅ Descargar reportes en PDF o Excel
+
+**NO puede:**
+- ❌ Ver datos de otras sedes (sin ser admin general)
+
+**Acceso a:** Panel de Administrador
+
+---
+
+### Administrador General 🔐
+
+**Símbolo:** 🔐
+
+**¿Quién es?** Administrador sistema con acceso a todas las sedes
+
+**Funciones Disponibles:**
+
+- ✅ Todas las funciones del Administrador
+- ✅ Ver datos de TODAS las sedes
+- ✅ Generar reportes del sistema completo
+- ✅ Acceder a análisis avanzados
+- ✅ Ver registros de auditoría global
+- ✅ Gestionar configuración del sistema
+
+**Acceso a:** Panel de Administrador General
+
+---
+
+## 6. NAVEGACIÓN BÁSICA 
+
+### Entendiendo la Pantalla Principal
+
+Cuando inicia sesión, verá una pantalla similar a esta:
+![enter image description here](https://iili.io/fTjYa2e.jpg)
+
+\`\`\`
+┌─────────────────────────────┐
+│ ☰  SENA          🔔 [1]     │ ← Encabezado
+├─────────────────────────────┤
+│                             │
+│   Bienvenido, [Su Nombre]   │
+│   Ambiente: Sala Informática│
+│                             │
+├─────────────────────────────┤
+│  Equipos    Disponibles     │ ← Tarjetas de Estadísticas
+│   120        115            │
+│                             │
+│  Dañados    Faltantes       │
+│    4          1             │
+├─────────────────────────────┤
+│ [Escanear QR] [Verificar]  │ ← Botones de Acción
+│ [Mantenimiento] [Ambiente] │
+├─────────────────────────────┤
+│ Notificaciones Recientes    │
+│ • Nueva verificación...     │
+│ • Equipo aprobado...        │
+├─────────────────────────────┤
+│ ☰ Menú | ⚙️ Configuración  │ ← Menú inferior
+└─────────────────────────────┘
+\`\`\`
+
+### Elementos Clave de la Navegación
+
+#### 1. **Botón Menú (☰)** - Esquina Superior Izquierda
+![enter image description here](https://iili.io/fTjaeK7.png)
+
+Pulse para ver todas las opciones disponibles en un menú lateral
+
+**Opciones típicas:**
+- Panel (volver al inicio)
+- Escanear QR
+- Verificar Inventario
+- Solicitar Mantenimiento
+- Ver Ambiente
+- Notificaciones
+- Feedback
+- Configuración
+- Cerrar Sesión
+
+#### 2. **Icono de Notificaciones (🔔)** - Esquina Superior Derecha
+![enter image description here](https://iili.io/fTjamOJ.png)
+
+Muestra un número rojo con las notificaciones sin leer
+
+**Acción:** Pulse para ver todas las notificaciones
+![enter image description here](https://iili.io/fTjcYOb.png)
+
+#### 3. **Tarjetas de Estadísticas**
+![enter image description here](https://iili.io/fTjl2hx.png)
+
+Muestran números clave sobre el inventario
+
+**Ejemplo:**
+- Total de Equipos: 150
+- Disponibles: 145
+- Dañados: 3
+- Faltantes: 2
+
+#### 4. **Botones de Acción**
+![enter image description here](https://iili.io/fTjWBou.png)
+
+Accesos rápidos a las funciones principales
+
+**Funciones comunes:**
+- Escanear QR
+- Verificar Inventario
+- Solicitar Mantenimiento
+- Ver Ambiente
+- Generar Reportes
+
+#### 5. **Menú Lateral (Drawer)**
+![enter image description here](https://iili.io/fTjaeK7.png)
+Pulse el icono ☰ para ver:
+
+\`\`\`
+╔════════════════════════════╗
+║ SENA                       ║
+║ Panel de [Su Rol]          ║
+║ [Su Email]                 ║
+╠════════════════════════════╣
+║ 🏠 Panel                   ║
+║ 📱 Escanear QR             ║
+║ ✓ Verificar Inventario     ║
+║ 🔧 Solicitar Mantenimiento ║
+║ 📦 Solicitar Préstamo      ║
+║ 🔔 Notificaciones          ║
+║ 💬 Feedback                ║
+║ ⚙️ Configuración            ║
+║ 🚪 Cerrar Sesión           ║
+╚════════════════════════════╝
+\`\`\`
+
+### Gestos Comunes
+
+| Gesto | Acción | Resultado |
+|-------|--------|-----------|
+| **Toque simple** | Pulse una vez | Abre una opción |
+| **Deslizar hacia abajo** | Baja la pantalla | Recarga los datos |
+| **Toque prolongado** | Mantiene pulsado | Abre menú adicional (si aplica) |
+| **Deslizar desde izquierda** | Arrastra desde borde izquierdo | Abre menú lateral |
+| **Botón atrás** | En dispositivos Android | Regresa a pantalla anterior |
+
+### Volver a la Pantalla Anterior
+
+**En dispositivos Android:**
+- Pulse el botón "Atrás" en la parte inferior del dispositivo
+
+**En iPhone:**
+- Pulse el botón "◀ Atrás" (si está visible en la parte superior izquierda)
+
+**En cualquier dispositivo:**
+- Pulse el icono ☰ y seleccione "Panel"
+
+---
+
+## 7. PANEL DE CONTROL (DASHBOARD) 
+![enter image description here](https://iili.io/fTj0XDJ.png)
+
+El **Panel de Control** es la pantalla principal después de iniciar sesión. Es como el "escritorio" de la aplicación donde puede acceder a todas sus funciones.
+
+### ¿Qué es el Panel de Control?
+
+Es la pantalla central que muestra:
+
+1. **Un resumen** del estado actual del inventario
+2. **Accesos rápidos** a las funciones principales
+3. **Notificaciones recientes** de cambios importantes
+4. **Información del ambiente** en el que trabaja
+
+### Secciones del Panel
+
+#### Sección 1: Tarjeta de Bienvenida
+![enter image description here](https://iili.io/fTjhh6G.png)
+
+\`\`\`
+┌──────────────────────┐
+│   [Logo SENA]        │
+│ Bienvenido, Juan     │
+│ Ambiente: Sala Comp. │
+│ Ubicación: Piso 2    │
+└──────────────────────┘
+\`\`\`
+
+**¿Qué ve?**
+- Su nombre (tomado de su perfil)
+- El nombre del ambiente donde trabaja
+- La ubicación del ambiente
+
+**¿Por qué es importante?**
+- Confirma que está en el ambiente correcto
+- Si no ve su ambiente, contacte al administrador
+
+---
+
+#### Sección 2: Tarjetas de Estadísticas
+![enter image description here](https://iili.io/fTjjefa.png)
+
+Muestran números importantes sobre el inventario:
+
+**1. EQUIPOS TOTALES (Color Azul)**
+- Número: Total de todos los equipos disponibles
+- Ejemplo: 120 equipos
+
+**2. DISPONIBLES (Color Verde)**
+- Número: Equipos listos para usar
+- Cálculo: Total - Dañados - Faltantes
+- Ejemplo: 115 equipos
+
+**3. DAÑADOS (Color Naranja/Amarillo)**
+- Número: Equipos con problemas
+- Estos necesitan mantenimiento
+- Ejemplo: 4 equipos
+
+**4. FALTANTES (Color Rojo)**
+- Número: Equipos que no están en su ubicación
+- Estos deben ser reportados
+- Ejemplo: 1 equipo
+
+**Ejemplo real:**
+
+\`\`\`
+┌────────────────┬────────────────┐
+│ 📦 Totales     │ ✓ Disponibles  │
+│      120       │       115      │
+├────────────────┼────────────────┤
+│ 🔧 Dañados     │ ⚠️ Faltantes   │
+│       4        │        1       │
+└────────────────┴────────────────┘
+\`\`\`
+
+---
+
+#### Sección 3: Botones de Acción Rápida
+![enter image description here](https://iili.io/fTjWBou.png)
+Son accesos directos a las funciones principales. Los botones varían según su rol.
+
+**Botones típicos para Estudiantes:**
+
+1. **Escanear QR** 📱
+![enter image description here](https://iili.io/fTj852n.png)
+   - Abre la cámara para capturar códigos QR
+   - Identifica equipos rápidamente
+
+3. **Verificar Inventario** ✓
+   ![enter image description here](https://iili.io/fTjUKOJ.png)
+   - Inicia el proceso de verificación
+   - Revisa el estado de los equipos
+
+4. **Solicitar Mantenimiento** 🔧
+  ![enter image description here](https://iili.io/fTjguEB.png)
+   - Reporta equipos dañados
+   - Solicita reparación
+
+5. **Ambiente** 📍
+   ![enter image description here](https://iili.io/fTjgb6B.png)
+   - Ver detalles de su espacio de trabajo
+   - Ver ubicación exacta de equipos
+
+6. **Notificaciones** 🔔
+  ![enter image description here](https://iili.io/fTj4aWv.png)
+   - Ve todas las notificaciones
+   - Marca como leídas
+
+7. **Feedback** 💬
+   ![enter image description here](https://iili.io/fTj4mkF.png)
+   - Envía sugerencias
+   - Reporta problemas de la app
+
+8. **Configuración** ⚙️
+   ![enter image description here](https://iili.io/fTj6SGR.png)
+   - Edita tu perfil
+   - Cambia configuración personal
+
+**Para Instructores y Supervisores, hay botones adicionales:**
+- Generar QR
+- Solicitar Préstamo
+- Ver Historial
+- Estadísticas
+- Reportes
+
+---
+
+#### Sección 4: Notificaciones Recientes
+
+Muestra las 3 notificaciones más nuevas:
+
+\`\`\`
+┌─ Notificaciones Recientes ─────┐
+│ • Nueva Verificación Pendiente │
+│   Sala Informática             │
+│   Hace 2 horas                 │
+│                                │
+│ • Equipo Aprobado para Préstamo│
+│   Computadora Dell Latitude    │
+│   Hace 5 horas                 │
+│                                │
+│ • Mantenimiento Completado     │
+│   Proyector Epson LW500        │
+│   Ayer                         │
+└────────────────────────────────┘
+\`\`\`
+
+**Indicadores visuales:**
+- 🟡 **Amarillo**: Requiere su atención
+- 🟢 **Verde**: Acción completada
+- 🔵 **Azul**: Actualización de información
+- 🔴 **Rojo**: Problema o rechazo
+
+---
+
+### Cómo Usar el Panel de Control
+
+**Paso 1: Revise las Estadísticas**
+![enter image description here](https://iili.io/fTjLMDF.png)
+- Mire las tarjetas de estadísticas
+- Identifique si hay equipos dañados o faltantes
+
+**Paso 2: Revise Notificaciones**
+
+- Pulse en "Notificaciones" o el icono 🔔
+- Lea mensajes importantes
+
+**Paso 3: Seleccione una Acción**
+- Pulse uno de los botones de acción rápida
+- O use el menú lateral ☰
+
+**Paso 4: Complete la Tarea**
+- Siga las instrucciones en las siguientes pantallas
+- Pulse "Guardar" o "Enviar" al terminar
+
+**Paso 5: Regrese al Panel**
+- La aplicación regresa automáticamente
+- O pulse el icono ☰ y seleccione "Panel"
+
+### Actualizar el Panel
+
+Los datos se actualizan automáticamente, pero también puede hacerlo manualmente:
+
+**Método 1: Deslizar hacia Abajo**
+1. En el panel principal, deslice el dedo hacia abajo
+2. Verá aparecer un símbolo de recarga ⟳
+3. Suelte el dedo
+4. Los datos se actualizarán
+
+**Método 2: Botón de Recarga**
+- Busque el icono ⟳ en la esquina superior derecha
+- Púlselo para actualizar
+
+**Método 3: Cerrar y Abrir la Aplicación**
+1. Pulse el botón Inicio de su dispositivo
+2. Cierre la aplicación
+3. Ábrala nuevamente
+
+---
+
+## 8. VERIFICACIÓN DE INVENTARIO {#verificacion}
+
+La **Verificación de Inventario** es el proceso mediante el cual se confirma el estado físico de todos los equipos en un ambiente.
+
+### ¿Por qué es importante?
+
+La verificación es importante porque:
+
+1. **Confirma la precisión** de los registros
+2. **Identifica problemas** antes de que sea demasiado tarde
+3. **Genera un registro** de quién verificó y cuándo
+4. **Cumple requisitos** de auditoría del SENA
+
+### Proceso de Verificación (3 Etapas)
+
+El proceso tiene **3 etapas de aprobación**:
+
+\`\`\`
+┌────────────┐      ┌──────────┐      ┌───────────┐      ┌──────────┐
+│ ESTUDIANTE │─────▶│INSTRUCTOR│─────▶│SUPERVISOR │─────▶│APROBADO  │
+│   Inicia   │      │ Revisa   │      │  Aprueba  │      │          │
+└────────────┘      └──────────┘      └───────────┘      └──────────┘
+\`\`\`
+
+**Si hay problemas:**
+
+\`\`\`
+Cualquier etapa puede detectar problemas y regresar la verificación
+para que se corrijan.
+\`\`\`
+
+---
+
+### Etapa 1: Estudiante Inicia la Verificación
+
+#### Paso 1: Acceda a Verificación de Inventario
+
+1. En el Panel Principal, pulse **"Verificar Inventario"**
+   O
+   Pulse ☰ > **"Verificar Inventario"**
+
+#### Paso 2: Seleccione el Horario
+
+Se le mostrará una lista de horarios disponibles:
+
+\`\`\`
+Seleccione el horario de verificación:
+
+☑️ Clase de Mañana (08:00 - 10:00)
+   Ambiente: Sala Informática 1
+   Instructor: Ing. Carlos García
+
+☐ Clase de Tarde (14:00 - 16:00)
+   Ambiente: Taller de Electrónica
+   Instructor: Ing. María López
+\`\`\`
+
+**¿Qué hacer?**
+- Toque el horario que está verificando
+- Se marcará con una ✓
+
+#### Paso 3: Revise el Estado del Ambiente
+
+Se le mostrarán preguntas sobre la limpieza y organización:
+
+**Pregunta 1: ¿El ambiente está limpio?**
+- Responda: Sí ☑️ o No ☐
+
+**Pregunta 2: ¿El ambiente está organizado?**
+- Responda: Sí ☑️ o No ☐
+
+**Paso 4: Agregue Comentarios (Opcional)**
+
+Si lo desea, agregue notas adicionales:
+
+\`\`\`
+┌─ Observaciones del Estudiante ─┐
+│ [Texto] El piso estaba mojado  │
+│ en la zona de circulación.     │
+└────────────────────────────────┘
+\`\`\`
+
+#### Paso 5: Revise los Equipos
+
+La aplicación mostrará una lista de todos los equipos con su estado:
+
+\`\`\`
+EQUIPOS A VERIFICAR
+(Se llenarán automáticamente)
+
+Computadora Dell Latitude 5420
+   Estado: Disponible ✓
+   Serial: ABC12345678
+
+Proyector Epson EB-2350WS
+   Estado: Disponible ✓
+   Serial: PRJ98765432
+
+Monitor LG 24"
+   Estado: Dañado ⚠️
+   Serial: MON11223344
+\`\`\`
+
+#### Paso 6: Envíe la Verificación
+
+1. Revise toda la información
+2. Pulse el botón **"Enviar Verificación"** (verde)
+3. Vea el mensaje: **"Verificación enviada exitosamente"**
+
+**¿Qué sucede ahora?**
+- Los datos van al instructor
+- El instructor recibe una notificación
+- Pasamos a la Etapa 2
+
+---
+
+### Etapa 2: Instructor Revisa
+
+**Nota:** Si usted es estudiante, **NO NECESITA hacer esto**. Solo el instructor lo hace.
+
+#### Paso 1: Instructor Recibe Notificación
+
+El instructor recibe una notificación:
+- 🔔 "Nueva Verificación de Inventario Pendiente"
+- Del ambiente y la hora
+
+#### Paso 2: Instructor Accede a Revisión
+
+El instructor va a:
+- Panel > Verificaciones Pendientes
+  O
+  ☰ > Gestión de Verificaciones
+
+#### Paso 3: Instructor Confirma el Estado
+
+El instructor marca:
+- ✓ Ambiente limpio
+- ✓ Ambiente organizado
+- ✓ Inventario completo
+
+#### Paso 4: Instructor Agrega Comentarios
+
+\`\`\`
+"Ambiente en excelentes condiciones.
+Todos los equipos presentes y en buen estado."
+\`\`\`
+
+#### Paso 5: Instructor Envía Confirmación
+
+Pulse: **"Confirmar y Enviar a Supervisor"**
+
+**¿Qué sucede?**
+- Pasamos a Etapa 3
+- El supervisor recibe notificación
+
+---
+
+### Etapa 3: Supervisor Aprueba (Final)
+
+**Nota:** Si usted es estudiante o instructor, **NO NECESITA hacer esto**. Solo el supervisor lo hace.
+
+#### Paso 1: Supervisor Recibe Notificación
+
+El supervisor ve:
+- 🔔 "Verificación Lista para Aprobación Final"
+
+#### Paso 2: Supervisor Revisa
+
+El supervisor puede:
+- Aceptar la verificación
+- Rechazarla si hay problemas
+
+#### Paso 3: Supervisor Aprueba
+
+Si todo está bien, marca: **"APROBAR VERIFICACIÓN"**
+
+**Estado Final:** 🟢 VERIFICACIÓN COMPLETADA
+
+---
+
+### Ver Historial de Verificaciones
+
+Para ver verificaciones anteriores:
+
+**Paso 1:** Pulse ☰ > **"Mis Verificaciones"**
+O
+**Panel** > **"Historial de Verificaciones"**
+
+**Paso 2:** Verá una lista con:
+
+\`\`\`
+┌─ Verificaciones Recientes ────────────┐
+│                                       │
+│ ✓ 2024-12-01 10:00                   │
+│   Verificación Completada             │
+│   Sala Informática 1                  │
+│   Estado: APROBADA                    │
+│                                       │
+│ ✓ 2024-11-28 14:30                   │
+│   Verificación Completada             │
+│   Taller de Electrónica               │
+│   Estado: APROBADA                    │
+│                                       │
+│ ⚠️ 2024-11-25 11:00                  │
+│   Verificación Incompleta             │
+│   Sala Informática 2                  │
+│   Estado: RECHAZADA                   │
+│                                       │
+└───────────────────────────────────────┘
+\`\`\`
+
+**Paso 3:** Pulse una verificación para ver detalles
+
+---
+
+### Solucionar Problemas en Verificaciones
+
+#### Problema 1: "La verificación fue rechazada"
+
+**Causa posible:** Hay equipos dañados o faltantes
+
+**Solución:**
+1. Pulse sobre la verificación rechazada
+2. Lea los comentarios del supervisor
+3. Corrija los problemas mencionados
+4. Cree una nueva verificación
+
+#### Problema 2: "Mi verificación está como 'Pendiente' hace días"
+
+**Causa posible:** El instructor no la ha revisado
+
+**Solución:**
+1. Contacte al instructor
+2. Dígale el horario y ambiente
+3. Pida que revise la verificación
+
+#### Problema 3: "No veo el botón 'Verificar Inventario'"
+
+**Causa posible:** No tiene permiso o su rol no lo permite
+
+**Solución:**
+1. Verifique que su rol sea Estudiante, Instructor o Supervisor
+2. Contacte al administrador si cree que hay error
+
+---
+
+## 9. GESTIÓN DE EQUIPOS {#equipos}
+
+La **Gestión de Equipos** incluye todas las acciones relacionadas con ver, crear, editar y eliminar equipos del inventario.
+
+### Ver Lista de Equipos
+
+#### Paso 1: Acceda a Equipos
+
+1. Pulse ☰ (menú lateral)
+2. Busque: **"Inventario"** o **"Gestión de Equipos"**
+3. Pulse para abrir
+
+O
+
+1. En el Panel, pulse el botón **"Equipos"** (si está disponible)
+
+#### Paso 2: Vea la Lista
+
+Se mostrará una lista de todos los equipos:
+
+\`\`\`
+┌─ EQUIPOS DEL AMBIENTE ─────────────┐
+│                                    │
+│ 1. Computadora Dell Latitude      │
+│    • Marca: Dell                   │
+│    • Modelo: Latitude 5420         │
+│    • Serial: ABC12345678           │
+│    • Estado: Disponible ✓          │
+│    • Cantidad: 5 unidades          │
+│                                    │
+│ 2. Proyector Epson                │
+│    • Marca: Epson                  │
+│    • Modelo: EB-2350WS             │
+│    • Serial: PRJ98765432           │
+│    • Estado: En Uso 🔵             │
+│    • Cantidad: 2 unidades          │
+│                                    │
+│ 3. Monitor LG 24"                 │
+│    • Marca: LG                     │
+│    • Modelo: 24UP550               │
+│    • Serial: MON11223344           │
+│    • Estado: Dañado ⚠️             │
+│    • Cantidad: 1 unidad            │
+│                                    │
+└────────────────────────────────────┘
+\`\`\`
+
+#### Paso 3: Filtrar o Buscar (Opcional)
+
+Para encontrar un equipo específico:
+
+**Opción 1: Buscar**
+1. Busque el campo **"🔍 Buscar"** en la parte superior
+2. Escriba el nombre o marca del equipo
+3. La lista se filtrará automáticamente
+
+**Opción 2: Filtrar por Estado**
+1. Pulse el botón **"Filtro"** (si está disponible)
+2. Seleccione:
+   - ✓ Disponibles
+   - 🔵 En Uso
+   - ⚠️ Dañados
+   - ❌ Faltantes
+3. Pulse **"Aplicar"**
+
+---
+
+### Ver Detalles de un Equipo
+
+#### Paso 1: Seleccione un Equipo
+
+En la lista, pulse sobre el equipo que desea ver
+
+#### Paso 2: Vea la Información Completa
+
+\`\`\`
+┌──────────────────────────────────┐
+│      DETALLES DEL EQUIPO         │
+├──────────────────────────────────┤
+│ COMPUTADORA DELL LATITUDE 5420   │
+│                                  │
+│ Información General:              │
+│ • Nombre: Computadora Dell       │
+│ • Categoría: Computadora         │
+│ • Marca: Dell                    │
+│ • Modelo: Latitude 5420          │
+│ • Número Serial: ABC12345678     │
+│ • Código Interno: COMP-001       │
+│                                  │
+│ Cantidad y Estado:                │
+│ • Cantidad Total: 5              │
+│ • Disponibles: 4                 │
+│ • Dañadas: 1                     │
+│ • Faltantes: 0                   │
+│ • En Uso: 0                      │
+│                                  │
+│ Datos de Compra:                  │
+│ • Fecha Compra: 2022-03-15       │
+│ • Garantía Vence: 2025-03-15     │
+│ • Último Mantenimiento: 2024-11  │
+│                                  │
+│ Notas:                            │
+│ "Equipo en buen estado operativo" │
+│                                  │
+└──────────────────────────────────┘
+\`\`\`
+
+#### Paso 3: Acciones Disponibles
+
+Dependiendo de su rol, puede:
+
+**Para Estudiantes:**
+- 👁️ Ver detalles
+- 📱 Escanear QR asociado
+- 🔔 Reportar problema
+
+**Para Instructores y Supervisores:**
+- 👁️ Ver detalles
+- ✏️ Editar información
+- 📱 Ver/Generar QR
+- 🔧 Reportar daño
+- 📋 Ver historial
+
+**Para Administradores:**
+- Todas las opciones anteriores
+- ➕ Agregar nuevo equipo
+- 🗑️ Eliminar equipo
+- 📊 Ver estadísticas
+
+---
+
+### Agregar un Nuevo Equipo (Solo Administrador)
+
+**Paso 1: Acceda a Agregar Equipo**
+
+1. Pulse ☰ > **"Gestión de Equipos"**
+2. Busque el botón **"➕ Agregar Equipo"** (parte superior derecha)
+3. Pulse para abrir formulario
+
+**Paso 2: Complete Información Básica**
+
+\`\`\`
+┌─ INFORMACIÓN GENERAL ──────────┐
+│                                │
+│ Nombre del Equipo: *           │
+│ [Computadora Lenovo Think...]  │
+│                                │
+│ Categoría: * (Seleccione)      │
+│ [▼ Computadora              ]  │
+│ Opciones: Computadora,         │
+│ Proyector, Teclado, Mouse,     │
+│ TV, Cámara, Micrófono, Tablet, │
+│ Otro                           │
+│                                │
+│ Marca: *                       │
+│ [Lenovo                    ]   │
+│                                │
+│ Modelo: *                      │
+│ [ThinkPad E15 Gen 4        ]   │
+│                                │
+│ * = Campo obligatorio          │
+└────────────────────────────────┘
+\`\`\`
+
+**Paso 3: Complete Información de Identificación**
+
+\`\`\`
+┌─ IDENTIFICACIÓN ───────────────┐
+│                                │
+│ Número de Serie (opcional):    │
+│ [ABC123XYZ456789           ]   │
+│                                │
+│ Código Interno (obligatorio):  │
+│ [COMP-0045                 ]   │
+│ (Debe ser único)               │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+**Paso 4: Complete Cantidad**
+
+\`\`\`
+┌─ CANTIDAD ─────────────────────┐
+│                                │
+│ Cantidad Total: * (Número)     │
+│ [1]                            │
+│                                │
+│ Es este un grupo (múltiples    │
+│ unidades del mismo tipo)?       │
+│ ☐ No  ☑️ Sí                    │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+**Si marca "Sí", aparecerá:**
+\`\`\`
+┌─ DETALLE DE GRUPO ─────────────┐
+│                                │
+│ Cantidad Disponible:           │
+│ [1]                            │
+│                                │
+│ Cantidad Dañada:               │
+│ [0]                            │
+│                                │
+│ Cantidad Faltante:             │
+│ [0]                            │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+**Paso 5: Complete Datos de Compra (Opcional)**
+
+\`\`\`
+┌─ DATOS DE COMPRA ──────────────┐
+│                                │
+│ Fecha de Compra:               │
+│ [📅 2024-03-15             ]   │
+│                                │
+│ Fecha Vencimiento Garantía:    │
+│ [📅 2025-03-15             ]   │
+│                                │
+│ Próximo Mantenimiento:         │
+│ [📅 2024-12-15             ]   │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+**Paso 6: Seleccione el Ambiente**
+
+\`\`\`
+┌─ UBICACIÓN ────────────────────┐
+│                                │
+│ Ambiente (Seleccione): *       │
+│ [▼ Sala Informática 1      ]   │
+│                                │
+│ Disponible desde:              │
+│ [📅 2024-12-01             ]   │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+**Paso 7: Agregue Notas (Opcional)**
+
+\`\`\`
+┌─ NOTAS ADICIONALES ────────────┐
+│                                │
+│ [Equipo en excelente estado,   │
+│  nuevo. Sensor de proximidad   │
+│  puede necesitar calibración.] │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+**Paso 8: Guarde el Equipo**
+
+1. Revise toda la información
+2. Pulse el botón **"💾 Guardar Equipo"** (verde)
+3. Vea el mensaje: **"Equipo agregado exitosamente"**
+
+**¿Qué sucede?**
+- El equipo aparece en la lista
+- Se genera automáticamente un código QR
+- Otros usuarios pueden verlo
+
+---
+
+### Editar Información de un Equipo (Instructor/Supervisor/Admin)
+
+**Paso 1: Seleccione el Equipo**
+
+1. Vaya a la lista de equipos
+2. Pulse sobre el equipo a editar
+
+**Paso 2: Pulse "Editar"**
+
+Busque el botón ✏️ **"Editar"**
+
+**Paso 3: Modifique lo Necesario**
+
+- Puede cambiar cualquier campo
+- Los campos con * son obligatorios
+- Algunos campos pueden estar bloqueados
+
+**Paso 4: Guarde los Cambios**
+
+1. Pulse **"💾 Guardar Cambios"**
+2. Verá: **"Equipo actualizado exitosamente"**
+
+---
+
+### Cambiar Estado de un Equipo
+
+Para marcar un equipo como dañado, en uso, o disponible:
+
+**Paso 1:** Abra el equipo
+
+**Paso 2:** Busque el campo "Estado"
+
+**Paso 3:** Seleccione el nuevo estado:
+
+\`\`\`
+□ Disponible (✓)
+□ En Uso (🔵)
+□ En Mantenimiento (🔧)
+□ Dañado (⚠️)
+□ Faltante (❌)
+□ Perdido (💀)
+\`\`\`
+
+**Paso 4:** Agregue comentario si es necesario:
+
+\`\`\`
+"El equipo fue dañado durante 
+la clase del 15/12 por caída."
+\`\`\`
+
+**Paso 5:** Pulse **"Guardar"**
+
+---
+
+## 10. SOLICITUD DE MANTENIMIENTO {#mantenimiento}
+
+Cuando un equipo está dañado o no funciona correctamente, debe solicitar mantenimiento.
+
+### ¿Quién puede solicitar mantenimiento?
+
+- ✅ Estudiantes
+- ✅ Instructores
+- ✅ Supervisores
+
+**NO pueden:**
+- Administradores (pueden crearlo directamente)
+
+---
+
+### Solicitar Mantenimiento (Paso a Paso)
+
+#### Paso 1: Acceda a "Solicitar Mantenimiento"
+
+**Opción 1: Desde el Panel**
+1. En el Panel Principal
+2. Pulse el botón **"Solicitar Mantenimiento"** 🔧
+
+**Opción 2: Desde el Menú**
+1. Pulse ☰
+2. Seleccione **"Solicitar Mantenimiento"**
+
+**Opción 3: Desde un Equipo**
+1. Vea la lista de equipos
+2. Pulse sobre un equipo dañado
+3. Pulse **"Reportar Daño"**
+
+#### Paso 2: Seleccione el Equipo
+
+Se abrirá un formulario para seleccionar el equipo:
+
+\`\`\`
+┌─ SELECCIONAR EQUIPO ───────────┐
+│                                │
+│ Buscar o seleccionar:          │
+│ [🔍                        ]   │
+│                                │
+│ ☐ Computadora Dell #1         │
+│ ☑️ Computadora Dell #2         │
+│ ☐ Proyector Epson             │
+│ ☐ Monitor LG                  │
+│ ☐ Teclado Logitech            │
+│                                │
+│ [Seleccione uno o varios]      │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+**¿Cómo seleccionar?**
+- Pulse una vez para marcar ☑️
+- Pulse nuevamente para desmarcar ☐
+
+#### Paso 3: Defina la Prioridad
+
+\`\`\`
+┌─ NIVEL DE URGENCIA ────────────┐
+│                                │
+│ ¿Qué tan urgente es? *         │
+│                                │
+│ ☐ Baja (menos de 1 semana)    │
+│   Para equipos no críticos     │
+│                                │
+│ ☐ Media (2-3 días)            │
+│   Equipo importante            │
+│                                │
+│ ☑️ Alta (próximas 24 horas)    │
+│   Equipo muy necesario         │
+│                                │
+│ ☐ Urgente (inmediato)         │
+│   Detiene procesos críticos    │
+│                                │
+│ * = Obligatorio                │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+#### Paso 4: Describa el Problema
+
+\`\`\`
+┌─ DESCRIPCIÓN DEL DAÑO ─────────┐
+│                                │
+│ ¿Cuál es el problema? *        │
+│                                │
+│ [El equipo no enciende, no    │
+│  hay luz de energía ni sonido. │
+│  Se probó con diferente cable │
+│  de alimentación sin resultado│
+│  positivo.]                    │
+│                                │
+│ Mínimo 10 caracteres          │
+│ Máximo 500 caracteres         │
+│                                │
+│ * = Obligatorio                │
+└────────────────────────────────┘
+\`\`\`
+
+**Consejos para describir bien:**
+- Sea específico: "no enciende" es mejor que "dañado"
+- Incluya lo que ya probó
+- Mencione cuándo ocurrió el problema
+- Describe síntomas exactos (ruidos, humo, etc.)
+
+**NO escriba:**
+- ❌ "No funciona"
+- ❌ "Está malo"
+- ❌ "Arréglalo"
+
+**SÍ escriba:**
+- ✅ "Pantalla negra sin respuesta, botón de encendido iluminado pero no enciende"
+- ✅ "Hace ruido de ventilador muy fuerte, sobrecalienta después de 5 minutos"
+- ✅ "Conecta pero no carga, probé 3 cables de carga diferentes"
+
+#### Paso 5: Información de Contacto
+
+\`\`\`
+┌─ CÓMO CONTACTARLE ─────────────┐
+│                                │
+│ Número de Teléfono (opcional): │
+│ [+57 312 456 7890          ]   │
+│                                │
+│ Email de Notificación:         │
+│ [juan.perez@sena.edu.co   ]   │
+│ (Se completa automáticamente)  │
+│                                │
+│ Mejor hora para contactar:     │
+│ [08:00 - 10:00 (Mañana)    ]   │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+#### Paso 6: Revise y Envíe
+
+\`\`\`
+┌─ RESUMEN DE LA SOLICITUD ──────┐
+│                                │
+│ Equipos: Computadora Dell #2   │
+│ Prioridad: Alta                │
+│ Problema: No enciende          │
+│ Fecha Solicitud: 2024-12-01    │
+│ Solicitado por: Juan Perez     │
+│                                │
+│ [Editar] [Enviar Solicitud]   │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+**Pulse: "Enviar Solicitud"** 📤
+
+**Mensaje de confirmación:**
+\`\`\`
+✅ Solicitud de Mantenimiento Enviada
+
+Número de Ticket: #MTR-2024-001
+
+Su solicitud ha sido recibida. 
+El técnico se comunicará en 24 horas.
+\`\`\`
+
+---
+
+### Seguimiento de Solicitudes
+
+#### Ver el Estado de mi Solicitud
+
+**Paso 1:** Pulse ☰ > **"Mis Solicitudes de Mantenimiento"**
+
+**Paso 2:** Verá una lista:
+
+\`\`\`
+┌─ MIS SOLICITUDES ──────────────┐
+│                                │
+│ #MTR-2024-001                 │
+│ Computadora Dell #2            │
+│ Estado: Asignado 🔄           │
+│ Fecha: 2024-12-01             │
+│ Prioridad: ⭐⭐⭐ Alta         │
+│ Técnico: Luis García           │
+│ Actualización: Hace 2 horas   │
+│                                │
+│ #MTR-2024-002                 │
+│ Proyector Epson                │
+│ Estado: En Reparación 🔧       │
+│ Fecha: 2024-11-28             │
+│ Prioridad: ⭐⭐ Media          │
+│ Técnico: Carlos López          │
+│ Actualización: Hace 4 horas   │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+#### Entender los Estados
+
+| Estado | Símbolo | Significado |
+|--------|---------|------------|
+| **Pendiente** | ⏳ | Esperando asignación a un técnico |
+| **Asignado** | 🔄 | Se asignó a un técnico |
+| **En Reparación** | 🔧 | El técnico está reparando |
+| **Completado** | ✅ | Reparación terminada |
+| **No se puede reparar** | ❌ | Se debe reemplazar |
+| **Cancelado** | 🚫 | Se canceló la solicitud |
+
+---
+
+### Cancelar una Solicitud
+
+Si el equipo ya se reparó o ya no necesita mantenimiento:
+
+**Paso 1:** Abra la solicitud
+
+**Paso 2:** Pulse **"Cancelar Solicitud"**
+
+**Paso 3:** Seleccione el motivo:
+
+\`\`\`
+¿Por qué desea cancelar?
+
+☑️ El problema se resolvió solo
+☐ El equipo ya funciona
+☐ Ya no lo necesitamos
+☐ Lo voy a llevar a otro lugar
+☐ Otro (especifique):
+  [_____________________]
+\`\`\`
+
+**Paso 4:** Pulse **"Confirmar Cancelación"**
+
+---
+
+## 11. PRÉSTAMOS DE EQUIPO {#prestamos}
+
+Un **Préstamo de Equipo** es cuando solicita usar un equipo por un período de tiempo específico.
+
+### Tipos de Préstamos
+
+**1. Préstamo a Corto Plazo (Same-Day)**
+- Duración: Durante el mismo día
+- Ejemplo: Prestamo de laptop para una presentación
+- Aprobación: Rápida (menos de 1 hora)
+
+**2. Préstamo de Varios Días**
+- Duración: 2-7 días
+- Ejemplo: Laptop para trabajar en proyecto
+- Aprobación: Normal (1-2 horas)
+
+**3. Préstamo Temporal**
+- Duración: 1-4 semanas
+- Ejemplo: Equipo para evento especial
+- Aprobación: Requiere supervisión (puede tomar horas)
+
+---
+
+### Solicitar un Préstamo
+
+#### Paso 1: Acceda a Solicitar Préstamo
+
+**Opción 1: Desde el Panel**
+- Pulse ☰ > **"Solicitar Préstamo"**
+
+**Opción 2: Desde la Lista de Equipos**
+- Busque el equipo
+- Pulse sobre él
+- Pulse **"Solicitar Préstamo"** 📦
+
+#### Paso 2: Seleccione el Equipo
+
+\`\`\`
+┌─ EQUIPO A PRESTAR ─────────────┐
+│                                │
+│ Buscar: [🔍                ]   │
+│                                │
+│ Disponibles:                   │
+│ ☑️ Computadora Dell #1         │
+│    (5 disponibles)             │
+│ ☐ Computadora Dell #2         │
+│    (2 disponibles)             │
+│ ☐ Proyector Epson             │
+│    (1 disponible)              │
+│                                │
+│ [Cantidad requerida: 1]        │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+#### Paso 3: Defina Fechas
+
+\`\`\`
+┌─ FECHAS DEL PRÉSTAMO ──────────┐
+│                                │
+│ Fecha de Inicio: * (requerido) │
+│ [📅 2024-12-02             ]   │
+│ [Hora: 08:00               ]   │
+│                                │
+│ Fecha de Fin: * (requerido)    │
+│ [📅 2024-12-02             ]   │
+│ [Hora: 17:00               ]   │
+│                                │
+│ Duración: 9 horas             │
+│                                │
+│ * = Obligatorio                │
+└────────────────────────────────┘
+\`\`\`
+
+**¿Cómo seleccionar fechas?**
+1. Pulse en el campo de fecha
+2. Aparecerá un calendario
+3. Seleccione la fecha tocando en ella
+4. Seleccione la hora si es necesario
+
+#### Paso 4: Describa el Propósito
+
+\`\`\`
+┌─ PROPÓSITO DEL PRÉSTAMO ───────┐
+│                                │
+│ ¿Para qué lo necesita? *       │
+│                                │
+│ [Para la presentación del     │
+│  proyecto final de la clase    │
+│  de Sistemas Operativos en    │
+│  el auditorio el próximo      │
+│  martes a las 10:00.]         │
+│                                │
+│ Mínimo 10 caracteres          │
+│ Máximo 500 caracteres         │
+│                                │
+│ * = Obligatorio                │
+└────────────────────────────────┘
+\`\`\`
+
+#### Paso 5: Especifique Responsable
+
+\`\`\`
+┌─ RESPONSABLE DEL EQUIPO ───────┐
+│                                │
+│ ¿Quién será responsable? *     │
+│                                │
+│ Nombre:                        │
+│ [Juan Pérez García (Auto)]    │
+│                                │
+│ Email:                         │
+│ [juan.perez@sena.edu.co   ]   │
+│                                │
+│ Teléfono:                      │
+│ [+57 312 456 7890          ]   │
+│                                │
+│ * = Obligatorio                │
+└────────────────────────────────┘
+\`\`\`
+
+#### Paso 6: Revise y Envíe
+
+\`\`\`
+┌─ RESUMEN DEL PRÉSTAMO ─────────┐
+│                                │
+│ Equipo: Computadora Dell #1    │
+│ Del: 2024-12-02 08:00         │
+│ Al: 2024-12-02 17:00          │
+│ Responsable: Juan Pérez García │
+│ Propósito: Presentación        │
+│                                │
+│ [Editar] [Solicitar Préstamo] │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+**Pulse: "Solicitar Préstamo"** 📤
+
+**Confirmación:**
+\`\`\`
+✅ Solicitud de Préstamo Creada
+
+Número de Solicitud: #LN-2024-0123
+
+Su solicitud se procesará en:
+- Si es hoy: en la próxima hora
+- Si es otro día: antes del mediodía anterior
+\`\`\`
+
+---
+
+### Ver Mis Préstamos
+
+#### Préstamos Activos (Vigentes)
+
+**Paso 1:** Pulse ☰ > **"Mis Préstamos"**
+
+**Paso 2:** Busque la pestaña **"Activos"**
+
+\`\`\`
+┌─ PRÉSTAMOS ACTIVOS ────────────┐
+│                                │
+│ #LN-2024-0123                 │
+│ Computadora Dell #1            │
+│ Desde: 2024-12-01 08:00       │
+│ Hasta: 2024-12-02 17:00       │
+│ Responsable: Juan Pérez        │
+│ Estado: ✅ APROBADO            │
+│ Devolución: Mañana 17:00      │
+│ [Devolver Equipo]              │
+│                                │
+│ #LN-2024-0124                 │
+│ Proyector Epson                │
+│ Desde: 2024-12-01 14:00       │
+│ Hasta: 2024-12-08 14:00       │
+│ Responsable: María García      │
+│ Estado: ⏳ EN PROCESO           │
+│ Devolución: En 6 días         │
+│ [Ver Detalles]                 │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+#### Historial de Préstamos
+
+**Paso 1:** Pulse ☰ > **"Mis Préstamos"**
+
+**Paso 2:** Busque la pestaña **"Historial"**
+
+\`\`\`
+┌─ HISTORIAL DE PRÉSTAMOS ───────┐
+│                                │
+│ ✅ #LN-2024-0120               │
+│ Monitor LG                     │
+│ Duración: 5 horas              │
+│ Fecha: 2024-11-28              │
+│ Devuelto: A tiempo ✓           │
+│                                │
+│ ✅ #LN-2024-0119               │
+│ Teclado Mecánico               │
+│ Duración: 3 días               │
+│ Fecha: 2024-11-25              │
+│ Devuelto: 1 día tarde ⚠️       │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+---
+
+### Devolver un Equipo
+
+#### Paso 1: Acceda a mis Préstamos Activos
+
+Pulse ☰ > **"Mis Préstamos"** > Pestaña **"Activos"**
+
+#### Paso 2: Pulse "Devolver Equipo"
+
+\`\`\`
+┌─ PRÉSTAMO ACTIVO ──────────────┐
+│                                │
+│ Equipo: Computadora Dell       │
+│ Responsable: Juan Pérez        │
+│ Fecha de Devolución: Hoy       │
+│ Hora: Antes de las 17:00       │
+│                                │
+│ [Devolver Equipo]              │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+#### Paso 3: Especifique Estado del Equipo
+
+\`\`\`
+┌─ ESTADO DE DEVOLUCIÓN ────────┐
+│                                │
+│ ¿En qué estado devuelve? *     │
+│                                │
+│ ☑️ Excelente (igual que lo recibió)
+│ ☐ Bueno (algún desgaste normal)
+│ ☐ Problemas menores           │
+│   (rayones, no afecta función) │
+│ ☐ Dañado (no funciona bien)    │
+│                                │
+│ * = Obligatorio                │
+└────────────────────────────────┘
+\`\`\`
+
+#### Paso 4: Agregue Comentarios
+
+\`\`\`
+┌─ COMENTARIOS (Opcional) ───────┐
+│                                │
+│ [El equipo funciona perfecto.  │
+│  Sin ningún problema.]         │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+#### Paso 5: Confirme la Devolución
+
+**Pulse: "Confirmar Devolución"** ✅
+
+**Confirmación:**
+\`\`\`
+✅ Equipo Devuelto Exitosamente
+
+El préstamo #LN-2024-0123 ha sido cerrado.
+
+Muchas gracias por cuidar el equipo.
+\`\`\`
+
+---
+
+## 12. CÓDIGOS QR {#qr}
+
+Los **Códigos QR** son códigos especiales que se pueden escanear con la cámara del dispositivo para identificar equipos rápidamente.
+
+### ¿Qué es un Código QR?
+
+Un código QR es:
+- Un cuadrado con puntos negros y blancos
+- Se escanea con la cámara del dispositivo
+- Contiene información del equipo
+- Fácil y rápido de usar
+
+**Ejemplo:**
+\`\`\`
+┌─────────────────┐
+│ █████░░░░░░░░  │
+│ █░░░░░░░░░░░░  │
+│ █░░░░░░░░░░░░  │
+│ ░░░░░░░░░░░░░░ │
+│ ░░░░░░░░░░░░░░ │
+│ ░░░░░░░░░░░░░░ │
+│ █████░░░░░░░░  │
+└─────────────────┘
+    Código QR
+\`\`\`
+
+### Escanear un Código QR
+
+#### Paso 1: Acceda a Escanear QR
+
+**Opción 1: Desde el Panel**
+- Pulse el botón **"Escanear QR"** 📱
+
+**Opción 2: Desde el Menú**
+- Pulse ☰ > **"Escanear QR"**
+
+#### Paso 2: Apunte la Cámara
+
+1. Se abrirá la cámara
+2. Apunte hacia el código QR en el equipo
+3. Asegúrese que el código esté bien iluminado
+4. Espere 2-3 segundos
+
+\`\`\`
+┌─────────────────────────────┐
+│     APUNTE LA CÁMARA        │
+│                             │
+│  ┌─────────────────────────┐│
+│  │ █████░░░░░░░░░░░░░░░░ ││
+│  │ █░░░░░░░░░░░░░░░░░░░░ ││
+│  │ █░░░░░░░░░░░░░░░░░░░░ ││
+│  │ ░░░░░░░░░░░░░░░░░░░░░ ││
+│  │ ░░░░░░░░░░░░░░░░░░░░░ ││
+│  │ █████░░░░░░░░░░░░░░░░ ││
+│  └─────────────────────────┘│
+│                             │
+│  [Luz]  [Cambiar cámara]   │
+│                             │
+└─────────────────────────────┘
+\`\`\`
+
+#### Paso 3: Espere el Resultado
+
+Cuando el código sea reconocido, verá:
+
+\`\`\`
+✅ QR IDENTIFICADO
+\`\`\`
+
+Automáticamente se abrirá la información del equipo:
+
+\`\`\`
+┌──────────────────────────────┐
+│      EQUIPO IDENTIFICADO     │
+├──────────────────────────────┤
+│ Computadora Dell Latitude    │
+│ Código: COMP-001             │
+│ Serial: ABC123XYZ456789      │
+│ Estado: Disponible ✓         │
+│ Ubicación: Sala Informática 1│
+│                              │
+│ [Ver Detalles] [Escanear+]  │
+│                              │
+└──────────────────────────────┘
+\`\`\`
+
+#### Paso 4: Seleccione una Acción
+
+Desde la pantalla del equipo identificado, puede:
+
+1. **Ver Detalles** - Información completa del equipo
+2. **Reportar Daño** - Si el equipo está roto
+3. **Solicitar Mantenimiento** - Para reparación
+4. **Escanear Otro** - Escanear otro código
+5. **Volver** - Regresar al panel
+
+---
+
+### Problemas al Escanear
+
+#### Problema 1: "No puedo enfocar el código"
+
+**Solución:**
+1. Acérquese más al código (10-30 cm)
+2. Asegúrese que hay buena luz
+3. Mantenga el dispositivo quieto
+4. Limpie la lente de la cámara
+5. Intente de nuevo
+
+#### Problema 2: "El código no se reconoce"
+
+**Causa posible:** El código está dañado o borroso
+
+**Solución:**
+1. Busque otro código del mismo equipo (puede haber múltiples)
+2. Contacte al administrador para generar nuevo código
+3. Ingrese manualmente el código del equipo
+
+#### Problema 3: "Dice 'Código inválido'"
+
+**Causa posible:** Es un código QR de otro sistema
+
+**Solución:**
+1. Asegúrese que está escaneando código de SENA
+2. Intente con otro código
+3. Contacte a soporte
+
+---
+
+### Generar Código QR para un Equipo (Instructor/Admin)
+
+Si necesita imprimir o compartir un código QR:
+
+#### Paso 1: Seleccione el Equipo
+
+1. Vaya a la lista de equipos
+2. Pulse sobre el equipo
+
+#### Paso 2: Busque Opción "Generar QR"
+
+\`\`\`
+┌─ DETALLES DEL EQUIPO ──────────┐
+│                                │
+│ Computadora Dell Latitude      │
+│ Código: COMP-001               │
+│                                │
+│ [Ver QR] [Generar QR] [Editar]│
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+Pulse **"Ver QR"** o **"Generar QR"**
+
+#### Paso 3: Opciones de Descarga
+
+\`\`\`
+┌─ CÓDIGO QR GENERADO ───────────┐
+│                                │
+│      ┌────────────────┐        │
+│      │ █████░░░░░░░░ │        │
+│      │ █░░░░░░░░░░░░ │        │
+│      │ █░░░░░░░░░░░░ │        │
+│      │ ░░░░░░░░░░░░░░│        │
+│      │ ░░░░░░░░░░░░░░│        │
+│      │ █████░░░░░░░░ │        │
+│      └────────────────┘        │
+│                                │
+│ COMP-001                       │
+│                                │
+│ [💾 Guardar] [🖨️ Imprimir]    │
+│ [📧 Enviar] [🔗 Compartir]    │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+**Opciones:**
+
+1. **💾 Guardar** - Descarga como imagen PNG
+2. **🖨️ Imprimir** - Imprime directamente
+3. **📧 Enviar** - Envía por correo
+4. **🔗 Compartir** - Comparte con otros
+
+---
+
+## 13. NOTIFICACIONES {#notificaciones}
+
+Las **Notificaciones** le informan sobre cambios importantes en el sistema.
+
+### Tipos de Notificaciones
+
+| Tipo | Icono | Ejemplo | Color |
+|------|-------|---------|-------|
+| Verificación Pendiente | ⏳ | "Nueva verificación de inventario" | 🟡 Amarillo |
+| Verificación Completada | ✅ | "Su verificación fue aprobada" | 🟢 Verde |
+| Mantenimiento | 🔧 | "Técnico asignado a su solicitud" | 🔵 Azul |
+| Préstamo Aprobado | 📦 | "Su préstamo fue aprobado" | 🟢 Verde |
+| Préstamo Rechazado | ❌ | "Su préstamo no fue aprobado" | 🔴 Rojo |
+| Alerta de Sistema | ⚠️ | "Problema en sistema" | 🟡 Amarillo |
+
+---
+
+### Ver Notificaciones
+
+#### Opción 1: Icono de Notificaciones
+
+En la esquina superior derecha del panel:
+
+\`\`\`
+┌─────────────────────────┐
+│ ☰  SENA        🔔 [3]   │
+└─────────────────────────┘
+             ↓
+        Número de notificaciones
+        sin leer (3 nuevas)
+\`\`\`
+
+**Paso 1:** Pulse el icono 🔔
+
+**Paso 2:** Verá todas las notificaciones:
+
+\`\`\`
+┌─ NOTIFICACIONES (3 nuevas) ────┐
+│                                │
+│ 🟡 Nueva Verificación Pendiente│
+│    Sala Informática            │
+│    Hace 2 horas                │
+│    [Marcar como leída]         │
+│                                │
+│ 🟢 Verificación Aprobada       │
+│    Taller de Electrónica       │
+│    Ayer                        │
+│    [Marcar como leída]         │
+│                                │
+│ 🔵 Técnico Asignado            │
+│    Solicitud #MTR-2024-001     │
+│    Luis García te atenderá     │
+│    Hace 3 horas                │
+│    [Marcar como leída]         │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+#### Opción 2: Centro de Notificaciones
+
+**Paso 1:** Pulse ☰ > **"Notificaciones"**
+
+**Paso 2:** Verá todas las notificaciones organizadas:
+
+\`\`\`
+┌─ TODAS MIS NOTIFICACIONES ─────┐
+│                                │
+│ FILTROS: [Todos] [Nuevas]     │
+│          [Leídas] [Archivadas]│
+│                                │
+│ Nuevas (3)                     │
+│ ▼                              │
+│ 🟡 Nuevas Verificaciones       │
+│ 🟢 Verificaciones Completadas  │
+│ 🔵 Cambios de Mantenimiento    │
+│                                │
+│ Antiguas (12)                  │
+│ ▼                              │
+│ 🟢 Préstamo Aprobado           │
+│ 📦 Equipo Disponible           │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+---
+
+### Acciones con Notificaciones
+
+#### Marcar como Leída
+
+1. Pulse sobre la notificación
+2. Pulse **"Marcar como Leída"** ✓
+
+#### Responder a una Notificación
+
+Según el tipo:
+
+**Si es sobre Verificación:**
+- Pulse **"Ver Verificación"**
+- Se abre la verificación para revisar
+
+**Si es sobre Mantenimiento:**
+- Pulse **"Ver Detalles"**
+- Se abre la solicitud de mantenimiento
+
+**Si es sobre Préstamo:**
+- Pulse **"Ver Préstamo"**
+- Se abre el registro del préstamo
+
+#### Archivar Notificaciones
+
+Para limpiar su centro de notificaciones:
+
+1. Pulse sobre la notificación
+2. Busque **"⋯"** (más opciones)
+3. Pulse **"Archivar"**
+
+#### Eliminar una Notificación
+
+1. Deslice la notificación hacia la izquierda
+2. Pulse **"🗑️ Eliminar"**
+3. Confirme
+
+---
+
+### Configurar Preferencias de Notificaciones
+
+**Paso 1:** Pulse ☰ > **"Configuración"**
+
+**Paso 2:** Busque **"Notificaciones"**
+
+**Paso 3:** Configure según prefiera:
+
+\`\`\`
+┌─ PREFERENCIAS DE NOTIFICACIONES┐
+│                                │
+│ ☑️ Recibir notificaciones       │
+│                                │
+│ Tipos de Notificación:         │
+│ ☑️ Verificaciones              │
+│ ☑️ Mantenimiento               │
+│ ☑️ Préstamos                   │
+│ ☐ Mensajes del Sistema         │
+│                                │
+│ Hora de Quieño:                │
+│ De: 22:00 (10 PM)             │
+│ A: 07:00 (7 AM)               │
+│ (No recibe notificaciones)      │
+│                                │
+│ ☑️ Sonido                       │
+│ ☑️ Vibración                    │
+│ ☐ Luz LED                      │
+│                                │
+│ [Guardar Cambios]              │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+---
+
+## 14. REPORTES Y ESTADÍSTICAS {#reportes}
+
+Los **Reportes** son documentos detallados sobre el estado del inventario, verificaciones, mantenimiento y más.
+
+### Ver Estadísticas en el Panel
+
+El panel muestra estadísticas visuales:
+
+\`\`\`
+┌─ DASHBOARD CON GRÁFICOS ───────┐
+│                                │
+│ 📊 ESTADO DEL INVENTARIO       │
+│                                │
+│ ┌────────────────────────────┐│
+│ │ Equipos Disponibles        ││
+│ │ ████████████░░  95%        ││
+│ │ 114 de 120                 ││
+│ └────────────────────────────┘│
+│                                │
+│ ┌────────────────────────────┐│
+│ │ Equipos Dañados            ││
+│ │ ░░░░░████░░░░░  4%         ││
+│ │ 5 de 120                   ││
+│ └────────────────────────────┘│
+│                                │
+│ ┌────────────────────────────┐│
+│ │ Equipos en Préstamo        ││
+│ │ ░░░░░░░░░░░░░░░░░░ 1%     ││
+│ │ 1 de 120                   ││
+│ └────────────────────────────┘│
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+---
+
+### Generar un Reporte
+
+#### Paso 1: Acceda a Reportes
+
+**Opción 1: Desde el Panel (si está disponible)**
+- Pulse **"Generar Reportes"**
+
+**Opción 2: Desde el Menú**
+- Pulse ☰ > **"Reportes"**
+- O ☰ > **"Estadísticas"**
+
+#### Paso 2: Seleccione Tipo de Reporte
+
+\`\`\`
+┌─ ¿QUÉ REPORTE DESEA? ──────────┐
+│                                │
+│ Tipos Disponibles:             │
+│                                │
+│ ☑️ Inventario General          │
+│    (Estado de todos los equipos)│
+│                                │
+│ ☐ Verificaciones              │
+│    (Historial de verificaciones)│
+│                                │
+│ ☐ Mantenimiento               │
+│    (Solicitudes de reparación) │
+│                                │
+│ ☐ Préstamos                   │
+│    (Historial de préstamos)    │
+│                                │
+│ ☐ Auditoría                   │
+│    (Registro de cambios)       │
+│    (Solo para Admin)           │
+│                                │
+│ ☐ Alertas de Inventario       │
+│    (Equipos dañados/faltantes) │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+**Seleccione** el tipo que necesita
+
+#### Paso 3: Defina Período
+
+\`\`\`
+┌─ PERÍODO DEL REPORTE ──────────┐
+│                                │
+│ ¿Qué período? *                │
+│                                │
+│ ○ Últimos 7 días               │
+│ ○ Últimos 30 días              │
+│ ○ Últimos 90 días              │
+│ ○ Personalizado                │
+│  │                             │
+│  └─ Del: [📅 2024-11-01]       │
+│     Al: [📅 2024-12-01]        │
+│                                │
+│ * = Obligatorio                │
+└────────────────────────────────┘
+\`\`\`
+
+#### Paso 4: Seleccione Formato
+
+\`\`\`
+┌─ FORMATO DE DESCARGA ──────────┐
+│                                │
+│ ¿Cómo desea el reporte? *      │
+│                                │
+│ ☑️ PDF                         │
+│    (Mejor para imprimir)       │
+│                                │
+│ ☐ Excel                        │
+│    (Mejor para análisis)       │
+│                                │
+│ ☐ Ver en Pantalla              │
+│    (Ver antes de descargar)    │
+│                                │
+│ * = Obligatorio                │
+└────────────────────────────────┘
+\`\`\`
+
+#### Paso 5: Opciones Adicionales (Opcional)
+
+\`\`\`
+┌─ OPCIONES AVANZADAS ───────────┐
+│                                │
+│ ☐ Incluir gráficos             │
+│ ☐ Incluir detalles de auditoría│
+│ ☐ Enviar por email             │
+│   [Email: juan@sena.edu.co  ]  │
+│                                │
+│ Logo: [🏢 Incluir logo SENA]   │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+#### Paso 6: Genere el Reporte
+
+**Pulse: "Generar Reporte"** 📊
+
+**Mientras se genera:**
+\`\`\`
+┌────────────────────────────────┐
+│ Generando reporte...           │
+│ ████████░░░░░░░░░░  50%       │
+│                                │
+│ Procesando datos...            │
+│                                │
+│ Estimado: 30 segundos          │
+│                                │
+│ [Cancelar]                     │
+└────────────────────────────────┘
+\`\`\`
+
+**Cuando está listo:**
+\`\`\`
+┌────────────────────────────────┐
+│ ✅ REPORTE GENERADO            │
+│                                │
+│ Reporte de Inventario          │
+│ Período: 2024-11-01 a 2024-12-01
+│                                │
+│ [💾 Descargar PDF]             │
+│ [📊 Descargar Excel]           │
+│ [📧 Enviar por Email]          │
+│ [👁️ Ver Previa]                 │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+---
+
+### Descargar y Usar el Reporte
+
+#### Descargar el Archivo
+
+**En Celular:**
+1. Pulse **"💾 Descargar"**
+2. Se descarga en la carpeta de Descargas
+3. Puede abrirlo desde el explorador de archivos
+
+**En Computadora:**
+1. Pulse **"💾 Descargar"**
+2. Seleccione dónde guardar
+3. El archivo se descarga
+
+#### Abrir el Reporte
+
+**PDF:**
+- Pulse el archivo descargado
+- Se abre en el visor de PDF
+
+**Excel:**
+- Pulse el archivo
+- Se abre en aplicación de hojas de cálculo
+- O importe a Google Sheets
+
+#### Ejemplos de Información en Reportes
+
+**Reporte de Inventario incluye:**
+- Total de equipos
+- Estado de cada equipo
+- Cantidades disponibles, dañadas, faltantes
+- Gráficos de resumen
+- Fecha de generación
+
+**Reporte de Verificaciones incluye:**
+- Fechas de verificación
+- Estado de cada una
+- Comentarios
+- Tiempo de procesamiento
+
+**Reporte de Mantenimiento incluye:**
+- Solicitudes recibidas
+- Estado actual de cada una
+- Técnico asignado
+- Tiempo promedio de reparación
+
+---
+
+## 15. PREGUNTAS FRECUENTES {#faq}
+
+### Acceso y Login
+
+**P: ¿Olvidé mi contraseña. ¿Qué hago?**
+
+R: Siga estos pasos:
+1. En la pantalla de login, pulse "¿Olvidaste tu contraseña?"
+2. Ingrese su email
+3. Revise su correo y pulse el enlace de recuperación
+4. Cree una contraseña nueva
+
+**P: ¿Mi email no es reconocido al registrarse?**
+
+R: Causas posibles:
+- El email no es válido del SENA (debe ser @sena.edu.co o similar)
+- Ya existe una cuenta con ese email
+- Contacte al administrador si cree que hay error
+
+**P: ¿Por qué me desconecta frecuentemente?**
+
+R: Causas posibles:
+- Su sesión expiró (por seguridad, después de 12 horas)
+- Inició sesión desde otro dispositivo
+- Solución: Inicie sesión nuevamente
+
+---
+
+### Verificaciones
+
+**P: ¿Qué pasa si detecto un equipo dañado durante la verificación?**
+
+R: 
+- Marque en la verificación que hay daños
+- O cree una solicitud de mantenimiento adicional
+- El supervisor será notificado
+
+**P: ¿Puedo verificar dos ambientes diferentes?**
+
+R: Depende de su rol:
+- Estudiante: Solo su ambiente asignado
+- Instructor: El ambiente de su clase
+- Supervisor: Múltiples ambientes
+- Admin: Todos los ambientes
+
+**P: ¿Puedo editar una verificación después de enviarla?**
+
+R: 
+- NO, después de enviar no se puede editar
+- Pero puede crear una nueva verificación
+- La verificación anterior queda en el historial
+
+---
+
+### Equipos y Mantenimiento
+
+**P: ¿Cómo reporto un equipo dañado?**
+
+R: Puede hacerlo de 3 formas:
+1. Panel > "Solicitar Mantenimiento"
+2. Ver el equipo > "Reportar Daño"
+3. Desde una verificación > Marcar dañado
+
+**P: ¿Cuánto tiempo tarda en asignarse un técnico?**
+
+R: Según la prioridad:
+- Urgente: menos de 1 hora
+- Alta: menos de 4 horas
+- Media: menos de 24 horas
+- Baja: menos de 3 días
+
+**P: ¿Se puede cancelar una solicitud de mantenimiento?**
+
+R: Sí, pero:
+- Puede cancelar si está en estado "Pendiente"
+- Una vez asignado a técnico, debe contactar al técnico
+- Se registra la cancelación en la auditoría
+
+---
+
+### Préstamos
+
+**P: ¿Cuántos días puedo prestar un equipo?**
+
+R: Máximos:
+- Equipos de alto valor: 7 días
+- Equipos normales: 14 días
+- Contacte al administrador para excepciones
+
+**P: ¿Qué pasa si devuelvo el equipo tarde?**
+
+R:
+- Se registra en el sistema
+- Puede afectar futuras solicitudes de préstamo
+- Puede haber restricciones temporales
+
+**P: ¿Qué pasa si devuelvo un equipo dañado?**
+
+R:
+- Debe reportarlo en la devolución
+- Se abre una solicitud de mantenimiento
+- Puede haber repercusiones según política
+
+---
+
+### Códigos QR
+
+**P: ¿Qué hago si el código QR de un equipo está dañado?**
+
+R:
+- Contacte al administrador
+- Puede solicitar un código nuevo impreso
+- Alternativamente, busque el código manualmente
+
+**P: ¿Puedo usar códigos QR de otros sistemas?**
+
+R: NO
+- Los códigos QR deben ser del sistema SENA
+- Otros códigos no funcionarán
+
+---
+
+### Notificaciones
+
+**P: ¿No estoy recibiendo notificaciones?**
+
+R: Revise:
+- ¿Está habilitada la notificación en configuración?
+- ¿Tiene sonido/vibración activados?
+- ¿Está dentro del horario de "No molestar"?
+- Revise que no sea silenciada por el SO
+
+**P: ¿Puedo silenciar ciertas notificaciones?**
+
+R: Sí, en Configuración:
+- Pulse ☰ > Configuración > Notificaciones
+- Desmarque los tipos que no desea
+- Pulse "Guardar"
+
+---
+
+### Reportes
+
+**P: ¿No puedo generar reportes, qué hago?**
+
+R: Esto se debe a:
+- Su rol no tiene permisos para reportes
+- Contacte al administrador
+- O vea las estadísticas en el panel
+
+**P: ¿Por qué el reporte tarda mucho en generar?**
+
+R: Posibles razones:
+- Hay mucha información
+- Hay mala conexión a internet
+- El servidor está saturado
+- Intente en otra hora
+
+---
+
+### Problemas Técnicos Generales
+
+**P: La aplicación se congela frecuentemente**
+
+R:
+- Reinicie la aplicación
+- Cierre otras aplicaciones
+- Actualice a la última versión
+- Contacte a soporte si persiste
+
+**P: No carga la página después de iniciar sesión**
+
+R:
+- Verifique conexión a internet
+- Espere 30 segundos
+- Pulse "Recargar" o actualice (pull-down)
+- Cierre y abra la aplicación
+
+**P: Veo mensajes de error en rojo**
+
+R:
+- Lea el mensaje de error completo
+- Intente la acción nuevamente
+- Si persiste, tome screenshot y contacte soporte
+- Anote el código del error si lo hay
+
+---
+
+## 16. GLOSARIO DE TÉRMINOS {#glosario}
+
+| Término | Significado |
+|---------|------------|
+| **Ambiente** | Espacio físico donde se encuentran los equipos (ej: Sala Informática) |
+| **Aprobación** | Autorización para proceder con una acción |
+| **Auditoría** | Registro de todos los cambios en el sistema |
+| **Disponible** | Equipo funcionando correctamente y listo para usar |
+| **Dañado** | Equipo con problemas que necesita reparación |
+| **Faltante** | Equipo que no se encuentra en su ubicación |
+| **Feedback** | Opiniones y sugerencias de usuarios |
+| **Historial** | Registro de acciones pasadas |
+| **Inventario** | Lista completa de todos los equipos |
+| **Notificación** | Mensaje de alerta sobre cambios importantes |
+| **Permiso** | Autorización para realizar cierta acción según su rol |
+| **Préstamo** | Autorización temporal de usar un equipo |
+| **Prioridad** | Nivel de urgencia (Baja, Media, Alta, Urgente) |
+| **QR** | Código especial que se escanea con cámara |
+| **Rol** | Su posición en el SENA (Estudiante, Instructor, etc.) |
+| **Serial/Serie** | Número único de identificación del equipo |
+| **Sesión** | Período en el que está conectado a la app |
+| **Token** | Clave de seguridad que mantiene su sesión activa |
+| **Verificación** | Confirmación del estado físico del inventario |
+
+---
+
+## 17. CONTACTO Y SOPORTE {#soporte}
+
+### Obtener Ayuda
+
+#### Opción 1: Centro de Soporte en la Aplicación
+
+**Paso 1:** Pulse ☰ > **"Ayuda"** o **"Soporte"**
+
+**Paso 2:** Verá opciones:
+- 📚 Centro de Ayuda (este manual)
+- 💬 Chat en Vivo
+- 📧 Enviar Ticket
+- 📞 Números de Teléfono
+
+#### Opción 2: Correo Electrónico
+
+**Envíe correos a:**
+\`\`\`
+Soporte General: soporte@sena.edu.co
+Reporte de Errores: bugs@sena.edu.co
+Sugerencias: feedback@sena.edu.co
+Problemas de Acceso: acceso@sena.edu.co
+\`\`\`
+
+**Incluya en el correo:**
+- Su nombre completo
+- Su email de usuario
+- Descripción del problema
+- Pasos para reproducir el error
+- Screenshot (foto) del error
+
+#### Opción 3: Teléfono
+
+\`\`\`
+Línea de Soporte: +57 (1) 2222-2222
+Horario: Lunes a Viernes, 08:00 - 18:00
+Extención: 5000 (Soporte Técnico)
+\`\`\`
+
+#### Opción 4: Chat en Vivo
+
+En la aplicación:
+1. Pulse ☰ > **"Chat en Vivo"**
+2. Espere a que se conecte un agente
+3. Haga su pregunta
+4. Horario: Lunes a Viernes, 09:00 - 17:00
+
+---
+
+### Reportar un Error
+
+Si encuentra un error en la aplicación:
+
+**Paso 1:** Anote los detalles:
+- ¿Qué estaba haciendo?
+- ¿Cuál fue el error?
+- ¿Cuándo ocurrió?
+- ¿Se repite siempre?
+
+**Paso 2:** Tome una captura de pantalla (Screenshot)
+- Android: Botones Volumen arriba + Encendido (simultáneamente)
+- iPhone: Botones Volumen arriba + Encendido
+- Computadora: Tecla Print Screen
+
+**Paso 3:** Envíe el reporte:
+- Por email a: bugs@sena.edu.co
+- O desde la aplicación: ☰ > **"Reportar Error"**
+
+**Paso 4:** Incluya:
+- La captura de pantalla
+- Descripción detallada
+- Su nombre y email
+- Modelo del dispositivo / navegador
+
+---
+
+### Sugerir una Mejora
+
+¿Tiene ideas para mejorar la aplicación?
+
+**Paso 1:** Pulse ☰ > **"Feedback"** o **"Sugerencias"**
+
+**Paso 2:** Rellene el formulario:
+
+\`\`\`
+┌─ SUGERENCIA DE MEJORA ────────┐
+│                                │
+│ Categoría: *                   │
+│ [▼ Interfaz de Usuario     ]   │
+│ Opciones: Funcionalidad,       │
+│ Interfaz, Rendimiento, etc.    │
+│                                │
+│ Descripción: *                 │
+│ [Sería bueno poder exportar    │
+│  directamente a Google Sheets  │
+│  sin descargar primero...]     │
+│                                │
+│ Adjuntar imagen (opcional):    │
+│ [📷 Adjuntar]                  │
+│                                │
+│ [Enviar Sugerencia]            │
+│                                │
+└────────────────────────────────┘
+\`\`\`
+
+**Paso 3:** Pulse **"Enviar"**
+
+---
+
+### Tiempo de Respuesta
+
+| Tipo de Consulta | Tiempo de Respuesta |
+|------------------|-------------------|
+| **Error Crítico** | 2-4 horas |
+| **Error Moderado** | 24 horas |
+| **Pregunta General** | 24-48 horas |
+| **Sugerencia** | Se revisa semanalmente |
+| **Chat en Vivo** | Inmediata (en horario) |
+
+---
+
+### Información de Contacto Importante
+
+**Administrador del Centro:**
+\`\`\`
+Nombre: [Contacto principal]
+Email: admin@sena.edu.co
+Teléfono: [Número interno]
+Horario: [Horario disponible]
+\`\`\`
+
+**Coordinador de TI:**
+\`\`\`
+Nombre: [Persona responsable]
+Email: ti@sena.edu.co
+Teléfono: [Número interno]
+Disponibilidad: [Horario]
+\`\`\`
+
+**Página Web de Soporte:**
+\`\`\`
+www.sena.edu.co/soporte
+www.sena.edu.co/manual
+www.sena.edu.co/faq
+\`\`\`
+
+---
+
+## CONCLUSIÓN
+
+Felicidades, ha completado el Manual de Usuario del Sistema de Gestión de Inventario SENA.
+
+### Lo que ha aprendido:
+
+✅ Cómo instalar y configurar la aplicación
+✅ Cómo acceder y crear cuenta
+✅ Cómo navegar por la aplicación
+✅ Cómo usar cada funcionalidad principal
+✅ Cómo resolver problemas comunes
+✅ Dónde obtener ayuda cuando la necesita
+
+### Próximos pasos:
+
+1. **Práctica:** Use la aplicación con tareas reales
+2. **Familiarización:** Explore todas las funciones
+3. **Confianza:** Después de algunos días, será experto
+4. **Ayuda:** Recuerde que siempre hay soporte disponible
+
+---
+
+## INFORMACIÓN LEGAL
+
+**Versión del Manual:** 2.0
+
+**Fecha de Última Actualización:** Diciembre 2024
+
+**Vigencia:** Válido hasta Junio 2025
+
+**Nota Importante:** Este manual puede actualizarse en cualquier momento. Se recomienda revisar periódicamente cambios.
+
+**Licencia:** Este manual es propiedad del SENA. Se permite su reproducción para uso educativo.
+
+---
+
+**FIN DEL MANUAL DE USUARIO**
+
+---
+
+*Este manual fue creado para ayudar a usuarios comunes a entender y usar eficientemente el Sistema de Gestión de Inventario SENA. Si tiene sugerencias para mejorarlo, contacte a soporte@sena.edu.co*
